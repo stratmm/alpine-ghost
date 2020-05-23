@@ -15,13 +15,13 @@ into the {body} of the default.hbs template --}}
     {{> hero background=feature_image}}
     <div class="m-hero__content" data-aos="fade-down">
       <h1 class="m-hero-title bigger">{{name}}</h1>
-      {{!-- <p class="m-heading__description">
+      <p class="m-heading__description">
         {{plural ../pagination.total empty=(t "No posts") singular=(t "1 post") plural=(t "% posts")}} {{t "with this tag"}}
-      </p> --}}
+      </p>
     </div>
     </section>
   {{/tag}}
-
+  
   <main>
     <div class="l-content">
       <div class="l-wrapper" data-aos="fade-up" data-aos-delay="300">
